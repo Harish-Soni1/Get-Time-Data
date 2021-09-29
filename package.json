@@ -1,15 +1,32 @@
 {
-  "name": "get-time-data",
-  "version": "1.0.0",
-  "main": "getTimeData.js",
+  "name": "total",
+  "version": "1.0.1",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node getTimeData.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "jsdom": "^17.0.0"
+    "@sendgrid/mail": "^7.4.2",
+    "authenticator": "^1.1.5",
+    "aws-sdk": "^2.945.0",
+    "cors": "^2.8.5",
+    "exceljs": "^4.2.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "firebase-admin": "^9.11.0",
+    "html-pdf-node": "^1.0.7",
+    "jsdom": "^17.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "node-cron": "^3.0.0",
+    "node-thermal-printer": "^4.1.2",
+    "nodemailer": "^6.6.3",
+    "puppeteer": "^10.2.0",
+    "qrcode": "^1.4.4",
+    "stripe": "^8.163.0"
   }
 }
